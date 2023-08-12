@@ -25,11 +25,11 @@ const Navbar = () => {
             </div>
             <div className='navbar_links'>
                 <ul>
-                    <li className='navbar_link'><a href='/' >Home</a></li>
-                    <li className='navbar_link'><a href='/#about-us'>About us</a></li>
-                    <li className='navbar_link'><a href='/#menu'>Resources</a></li>
-                    <li className='navbar_link'><a href='/#chef'>Blog</a></li>
-                    <li className='navbar_link'><a href='/#testimonial'>Contact</a></li>
+                    <li className='navbar_link'><a href='#home' >Home</a></li>
+                    <li className='navbar_link'><a href='#about'>About us</a></li>
+                    <li className='navbar_link'><a href='#offer'>Rooms</a></li>
+                    <li className='navbar_link'><a href='#blog'>Blog</a></li>
+                    <li className='navbar_link'><a href='#footer'>Contact</a></li>
 
                 </ul>
             </div>
@@ -51,11 +51,11 @@ const Navbar = () => {
                                 isToggle(false)
                             }} />
                         <ul className='navbar_links_main_small-screen-ul'>
-                            <li className='navbar_link'><a onClick={() => isToggle(false)} href='/'>Home</a></li>
-                            <li className='navbar_link'><a onClick={() => isToggle(false)} href='#about-us'>About us</a></li>
-                            <li className='navbar_link'><a onClick={() => isToggle(false)} href='#menu'>Resources</a></li>
-                            <li className='navbar_link'><a onClick={() => isToggle(false)} href='#chef'>Blog</a></li>
-                            <li className='navbar_link'><a onClick={() => isToggle(false)} href='#testimonial'>Contact</a></li>
+                            <li className='navbar_link'><a onClick={() => isToggle(false)} href='#home'>Home</a></li>
+                            <li className='navbar_link'><a onClick={() => isToggle(false)} href='#about'>About us</a></li>
+                            <li className='navbar_link'><a onClick={() => isToggle(false)} href='#offer'>Rooms</a></li>
+                            <li className='navbar_link'><a onClick={() => isToggle(false)} href='#blog'>Blog</a></li>
+                            <li className='navbar_link'><a onClick={() => isToggle(false)} href='#footer'>Contact</a></li>
                         </ul>
                     </div>
                 )}

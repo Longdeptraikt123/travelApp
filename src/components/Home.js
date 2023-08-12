@@ -6,6 +6,7 @@ import { Fade } from "react-awesome-reveal";
 const Home = () => {
     return (
         <div
+            id='home'
             style={{
                 background: `linear-gradient(rgba(33, 33, 33, 0.522), rgba(33, 33, 33, 0.522)), url(${Image})`,
                 backgroundPosition: 'center',

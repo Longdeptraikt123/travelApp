@@ -41,7 +41,7 @@ const Blog = () => {
     ];
 
     return (
-        <div className='blog'>
+        <div id='blog' className='blog'>
             <div className='blog_heading'>
                 <Fade direction='up' duration='1000' triggerOnce={false} >
 

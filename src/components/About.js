@@ -29,7 +29,7 @@ const About = () => {
 
     ]
     return (
-        <div className='about'>
+        <div id='about' className='about'>
             <div className='about_heading'>
                 <Fade direction='down' duration='1000' triggerOnce={false} >
                     <h2>Why choose us?</h2>

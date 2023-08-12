@@ -37,7 +37,7 @@ const Offer = () => {
         }
     ]
     return (
-        <div className='offer'>
+        <div id='offer' className='offer'>
             <div className='offer_heading'>
                 <Fade direction='down' triggerOnce={false}>
                     <h2>Special Offers</h2>

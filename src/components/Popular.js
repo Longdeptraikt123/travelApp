@@ -39,7 +39,7 @@ const Popular = () => {
 
 
     return (
-        <div className='popular'>
+        <div id='popular' className='popular'>
             <div className='popular_heading'>
                 <div className='popular_heading-title'>
 

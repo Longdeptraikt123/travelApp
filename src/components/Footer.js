@@ -4,7 +4,7 @@ import { FaFacebookF, FaTwitter, FaYoutube } from 'react-icons/fa';
 
 const Footer = () => {
     return (
-        <div className='footer'>
+        <div id='footer' className='footer'>
             <div className='footer_logo'>
                 <h2>Travel</h2>
                 <div className='footer_icons'>
