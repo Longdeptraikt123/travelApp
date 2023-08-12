@@ -44,14 +44,11 @@ const Popular = () => {
                 <div className='popular_heading-title'>
 
                     <Fade direction='left' duration='1000' triggerOnce={false} >
-
                         <h2>Popular Destinations</h2>
-                    </Fade>
-
-                    <Fade direction='left' duration='1200' triggerOnce={false} >
-
                         <p>Write your own travel story as you traverse captivating landscapes and embrace the extraordinary.</p>
                     </Fade>
+
+
 
                 </div>
                 <Fade direction='right' duration='1000' triggerOnce={false} >

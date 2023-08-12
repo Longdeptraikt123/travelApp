@@ -10,16 +10,19 @@ const About = () => {
     const data = [
         {
             title: '120+ Partners',
+            id: 1,
             img: Image1,
             desc: 'Preserving the natural beauty of our surroundings is at the heart of our ethos. We are committed to sustainable practices that protect the environment'
         },
         {
             title: '1100+ Hotels and Resorts',
+            id: 2,
             img: Image2,
             desc: 'Preserving the natural beauty of our surroundings is at the heart of our ethos. We are committed to sustainable practices that protect the environment'
         },
         {
             title: '10000+ Customers',
+            id: 3,
             img: Image3,
             desc: 'Preserving the natural beauty of our surroundings is at the heart of our ethos. We are committed to sustainable practices that protect the environment'
         },
@@ -38,7 +41,7 @@ const About = () => {
 
                     <Fade direction='up' duration='1000' triggerOnce={false} >
 
-                        <div className='about_content-box'>
+                        <div key={item.id} className='about_content-box' >
                             <div className='about_content-img'>
                                 <img src={item.img} alt='' />
                             </div>
@@ -51,7 +54,7 @@ const About = () => {
 
                 ))}
             </div>
-            <Fade direction='right' duration='1000' triggerOnce={false} >
+            <Fade direction='up' duration='1000' triggerOnce={false} >
 
                 <div className='about_card'>
                     <div style={{

@@ -6,7 +6,7 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        padding: 2rem 0;
+        padding: 2rem 10px;
         text-align: center;
 
         h2 {
@@ -140,30 +140,30 @@
             }
         }
 
+
     }
 
-    @media (max-width:750px) {
+    @media (max-width: 850px) {
+        .offer_boxes {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 2rem;
+            padding: 1rem;
+
+            .offer_box {
+                margin-top: 10px;
+                width: 100%;
+            }
+        }
+    }
+
+    @media (max-width: 750px) {
         margin-top: 14rem;
     }
 
-    @media (max-width:450px) {
+    @media (max-width: 450px) {
         margin-top: 18rem;
-
-    }
-
-    @media (max-width:850px) {
-
-
-        .offer_boxes {
-            flex-direction: column;
-            align-items: center;
-            gap: 2rem;
-            padding: 0 0.8rem;
-
-            .offer_box {
-                width: 80%;
-            }
-        }
-
     }
 }

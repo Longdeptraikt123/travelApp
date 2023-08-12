@@ -54,7 +54,7 @@ const Offer = () => {
                 {data.map(item => {
                     return (
                         <Fade direction='up' duration='1000' triggerOnce={false} >
-                            <div className='offer_box'>
+                            <div key={item.id} className='offer_box'>
 
                                 <div className='offer_box-img'>
                                     <img src={item.img} alt='' />
