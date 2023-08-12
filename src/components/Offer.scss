@@ -1,0 +1,169 @@
+.offer {
+    margin-top: 10rem;
+
+    .offer_heading {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 2rem 0;
+        text-align: center;
+
+        h2 {
+            font-size: 30px;
+            margin-bottom: 13px;
+
+        }
+
+        p {
+            font-size: 14px;
+            color: #9E9FA5;
+            font-weight: 500;
+        }
+    }
+
+    .offer_boxes {
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+        overflow: hidden;
+        padding: 3rem;
+        justify-content: center;
+
+        .offer_box {
+            flex: 1;
+            border-radius: 1rem;
+            box-shadow: 0 2px 8px 2px rgba(178, 178, 178, 0.45);
+            padding: 10px;
+            transition: 0.6s ease-in;
+            margin-bottom: 12px;
+
+            &:hover {
+                transform: translateY(-15px);
+
+            }
+
+            .offer_box-img {
+                height: 300px;
+                width: 100%;
+                border-radius: 1rem;
+                position: relative;
+                overflow: hidden;
+                position: relative;
+                z-index: 0;
+
+                span {
+                    position: absolute;
+                    top: 0;
+                    z-index: 1;
+                    right: 0;
+                    color: #fff;
+                    font-size: 12px;
+                    font-weight: 500;
+                    background: #0079FF;
+                    padding: 10px;
+                }
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+
+                }
+            }
+
+            .offer_box-content {
+                .offer_box-price {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    padding: 1rem;
+
+                    p {
+                        font-size: 20px;
+                        font-weight: 500;
+                    }
+
+                    span {
+                        padding: 10px;
+                        background: #F1F0E8;
+                        font-size: 12px;
+                        font-weight: 500;
+                        border-radius: 1rem;
+                        color: #0079FF;
+                    }
+                }
+
+                .offer_box-icons {
+                    display: flex;
+                    flex-wrap: wrap;
+                    gap: 1rem;
+
+                    .offer_box-icon {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        gap: 5px;
+                        padding: 10px;
+                        background: #D8D9DA;
+                        border-radius: 5px;
+
+                        span {
+                            color: #61677A;
+                            font-size: 15px;
+                            font-weight: 400;
+                        }
+                    }
+                }
+
+                .offer_box-detail {
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+
+                    .offer_box-text {
+                        display: flex;
+                        padding: 1rem 0;
+                        color: #9E9FA5;
+                        font-size: 14px;
+                        color: #9E9FA5;
+                        font-weight: 500;
+                    }
+
+                    button {
+                        width: 100%;
+                        padding: 10px;
+                        border-radius: 1rem;
+                        margin-bottom: 10px;
+                    }
+                }
+            }
+        }
+
+    }
+
+    @media (max-width:750px) {
+        margin-top: 14rem;
+    }
+
+    @media (max-width:450px) {
+        margin-top: 18rem;
+
+    }
+
+    @media (max-width:850px) {
+
+
+        .offer_boxes {
+            flex-direction: column;
+            align-items: center;
+            gap: 2rem;
+            padding: 0 0.8rem;
+
+            .offer_box {
+                width: 80%;
+            }
+        }
+
+    }
+}
