@@ -4,6 +4,9 @@ import Image from '../img/img_1.jpeg'
 import { Fade } from "react-awesome-reveal";
 
 const Home = () => {
+    const scrollDown = () => {
+        window.scrollTo(0, 700)
+    }
     return (
         <div
             id='home'
@@ -26,7 +29,7 @@ const Home = () => {
                         <p>Life is a collection of moments, and travel is your chance to collect the most extraordinary ones
                             . Start your journey today.
                         </p>
-                        <button className='btn'>Explore Now</button>
+                        <button onClick={scrollDown} className='btn'>Explore Now</button>
                     </div>
                 </div>
             </Fade>
