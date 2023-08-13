@@ -8,11 +8,15 @@
     flex-direction: row;
 
     .footer_logo {
+        display: grid;
+        grid-template-columns: 1fr;
+        place-content: center;
 
         h2 {
             font-size: 25px;
             letter-spacing: 0.7rem;
             margin: 10px 0;
+            color: #0079FF;
         }
 
         .footer_icons {
@@ -61,6 +65,16 @@
                 }
             }
 
+            .tk {
+                transition: 0.2s ease-in;
+
+                &:hover {
+                    transform: scale(1.1);
+                    cursor: pointer;
+                    color: #fff;
+                    background: #111;
+                }
+            }
 
         }
     }
@@ -116,7 +130,7 @@
         padding: 5rem;
         background: #f1f1f1;
         display: flex;
-        justify-content: space-evenly;
+        justify-content: center;
         align-items: center;
         gap: 1rem;
         flex-direction: column;
@@ -129,6 +143,7 @@
 
         .footer_links {
             margin: 1rem 0;
+
         }
     }
 }

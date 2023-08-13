@@ -1,16 +1,17 @@
 import React from 'react'
 import './Footer.scss'
-import { FaFacebookF, FaTwitter, FaYoutube } from 'react-icons/fa';
+import { FaFacebookF, FaTwitter, FaYoutube, FaTiktok } from 'react-icons/fa';
 
 const Footer = () => {
     return (
         <div id='footer' className='footer'>
             <div className='footer_logo'>
-                <h2>Travel</h2>
+                <h2>Booking</h2>
                 <div className='footer_icons'>
                     <FaFacebookF className='footer_icon fb' />
                     <FaTwitter className='footer_icon tw' />
                     <FaYoutube className='footer_icon yt' />
+                    <FaTiktok className='footer_icon tk' />
                 </div>
             </div>
             <div className='footer_links'>
